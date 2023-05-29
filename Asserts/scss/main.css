@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 140px 0px 120px;
+}
+#main-nav #first {
+  width: 24%;
+}
+#main-nav ul {
+  display: flex;
+  gap: 45px;
+  position: relative;
+  top: 70px;
+}
+#main-nav ul li {
+  list-style: none;
+}
+#main-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+#main-nav ul li a:hover {
+  color: rgb(249, 139, 0);
+}
+#main-nav li:first {
+  color: rgb(249, 139, 0);
+}
+
+#banner {
+  background-color: white;
+  width: 100%;
+  /*   height: 80vh; */
+  padding: 0px 140px 190px 157px;
+}
+#banner h1 {
+  font-size: 63px;
+  width: 60%;
+  font-family: rennersemi;
+  /*  display: flex;
+   justify-content: end;
+   align-items: flex-end; */
+  padding: 100px 0px 0px 0px;
+}
+#banner h1 span {
+  color: rgb(249, 139, 0);
+}
+
+#about {
+  background-color: black;
+  width: 100%;
+  padding: 0px 120px 100px 140px;
+}
+#about .rectangle {
+  background-color: rgb(249, 139, 0);
+  width: 570px;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 120px;
+}
+#about .rectangle h3 {
+  color: black;
+  width: 70%;
+  line-height: 1.6;
+  font-size: 25px;
+  font-family: rennersemi;
+  padding: 0px 0px 30px 0px;
+}
+#about .rectangle span {
+  color: black;
+}
+#about .rectangle p {
+  color: black;
+  font-size: 12px;
+  width: 65%;
+}
+#about h6 {
+  color: white;
+  font-size: 14px;
+}
+#about .pro ul li {
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+}
+#about .pro ul li a {
+  text-decoration: none;
+  color: white;
+}
+#about .main-div-1 {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+#about .pic1 {
+  width: 80%;
+}
+#about .num, #about .num1 {
+  background-color: white;
+}
+#about .num2 {
+  background-color: rgb(249, 139, 0);
+}
+#about .number {
+  display: flex;
+  gap: 20px;
+  padding: 150px 41px 0px 0px;
+  justify-content: center;
+  align-items: center;
+}
+#about .number p {
+  color: black;
+  padding: 0px 0px 0px 30px;
+}
+#about .number .target {
+  color: white;
+}
+#about .count {
+  display: flex;
+  padding: 30px;
+  font-size: 25px;
+}
+
+#mobi-section {
+  background-color: white;
+  width: 100%;
+  padding: 100px 120px 100px 140px;
+}
+#mobi-section h4 {
+  color: rgb(249, 139, 0);
+  margin: 120px 0px 40px 0px;
+}
+
+#aims {
+  background-color: black;
+  width: 100%;
+  padding: 100px 120px 100px 140px;
+}
+#aims .rectangle {
+  background-color: rgb(249, 139, 0);
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#aims .rectangle h3 {
+  color: white;
+  width: 59%;
+  line-height: 1.6;
+  font-size: 25px;
+  font-family: rennersemi;
+  padding: 0px 0px 30px 0px;
+}
+#aims .rectangle span {
+  color: black;
+}
+#aims .rectangle h6 {
+  padding: 0px 141px 0px 0px;
+  color: white;
+}
+#aims h4 {
+  color: rgb(249, 139, 0);
+  margin: 40px 0px;
+}
+#aims p {
+  color: white;
+  font-size: 16px;
+}
+
+#donate-section {
+  background-color: white;
+  width: 100%;
+  padding: 150px 120px 120px 140px;
+}
+#donate-section .main-div {
+  padding: 0px 0px 120px 0px;
+}
+#donate-section .main-div .second-div {
+  display: flex;
+  justify-content: flex-end;
+}
+#donate-section .main-div .second-div h1 {
+  color: rgb(249, 139, 0);
+  width: 68%;
+  font-family: rennersemi;
+  font-size: 63px;
+}
+#donate-section h6 {
+  width: 75%;
+  padding: 0px 0px 25px 10px;
+}
+#donate-section a {
+  color: black;
+  display: block;
+  margin: 10px;
+  font-size: 13px;
+  text-decoration: none;
+}
+#donate-section img {
+  width: 17%;
+  margin: 10px;
+}
+
+#footer-section {
+  background-color: black;
+  width: 100%;
+  padding: 100px 120px 80px 140px;
+}
+#footer-section h6 {
+  color: white;
+}
+#footer-section .first-links {
+  padding: 20px 0px 90px 0px;
+}
+#footer-section .second-links {
+  padding: 45px 0px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+  font-size: 14px;
+}
+#footer-section .quick {
+  padding-left: 155px;
+}
+#footer-section a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+#footer-section .line {
+  width: 1180px;
+  height: 1px;
+  background-color: rgb(60, 59, 59);
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#footer-section .third-link {
+  display: flex;
+  justify-content: flex-end;
+  padding: 70px 0px 0px 0px;
+}/*# sourceMappingURL=main.css.map */
